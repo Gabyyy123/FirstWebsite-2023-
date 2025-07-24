@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="payment1.css">
+</head>
+<body>
+    <script>
+      function myFunction(){
+        alert("Continue to payment methdod")
+      }
+    </script>
+     <header>
+    <a href="home.html"><img  src="img/logo.png" alt="logo"></a>
+               <ul  class="nav-links" id="navLinks">
+                 <li><a href="home.html">Home</a></li>
+                 <li><a href="service.html">Service</a></li>
+                 <li><a href="about.html">About</a></li>
+               </ul>
+               <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+       </header>
+       <div class="container">
+        <div class="contain"><div class="x"> <a href="plusmonth.html">X</a></div>
+       
+        <form action="payment2.html" id="paymentform">
+            <h2>Payment</h2>
+            
+            <div class="hatdog"><h3>Country</h3>
+                <select name="Country" class="Country" required>
+                    <option value="contryselect">Select your Country</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="India">India</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Russia">Russia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Wales">Wales</option>
+                    <option value="Xinjiang">Xinjiang</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                </select><br><br>
+                <h3>Coupon code  <input type="text" placeholder="Coupon code" class="hays" ></div><p>(optional)</p></h3>
+              <div class="butto">
+                <a href="payment2.html"><br>
+                    <button onclick="myFunction()">
+                       Continue to payment method
+                   </button>
+             </a>
+              </div>
+               
+            
+        </form></div>
+        
+       </div>
+       <script src="script.js"></script>
+       </body>
+      
+       </html>
