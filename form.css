@@ -1,0 +1,271 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #6DA5C0;
+            transition: opacity .3s ease-in-out; 
+
+        }
+        .logo{
+          width: 10rem;
+          height: 7rem;
+          float: left;
+         padding-bottom: 1rem;
+      }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-top: -50px;
+        }
+        
+        .login-box {
+            background-color: white;
+            width: 615px;
+            height: 370px;
+            border-radius: 10px;
+            display: flex;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .left-box {
+            background-color: #24c8a6;
+            width: 50rem;
+            padding: 30px;
+            border-radius: 10px 70px 70px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .right-box {
+            width: 50rem;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+       .right-box p{
+         color: #30B092;
+        }
+
+        .left-box h1 {
+            margin-bottom: 20px;
+        }
+
+        .sign-in-btn {
+            background-color: #FFFFFF;
+            color: #24c8a6;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5rem;
+            cursor: pointer;
+        }
+        .sign-in-btn:hover{
+            background-color: #17a085;
+            color: white;
+            
+        }
+        .create-account h2 {
+            font-weight: normal;
+            color: #30B092;
+            margin: 1rem 2rem;
+        }
+
+        .social-icons {
+            margin: 10px 50px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .social-icons:hover{
+            transform: translateY(10px);
+        }
+
+        .input-box {
+            margin: 5px 0;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+        }
+
+        .sign-up-btn {
+            background-color: #24c8a6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius:5rem;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .sign-up-btn:hover {
+            background-color: #17a085;
+        }
+        .navbar {
+            width: 100%;
+            height: 100px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #072E33;        
+        }
+
+        .navbar img {
+            width: 300px;
+            padding-top: 40px;
+            padding-left: 50px;
+
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            .container{
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                margin-top: 100px;
+                margin-left: 242.5px;
+                width: 5px;
+            }
+            .navbar img{
+                width: 10px;
+                height: 100px;
+                margin-bottom: 12px;
+                margin-left: -35px;
+            }
+             .login-box {
+            background-color: white;
+            width: 450px;
+            height: 370px;
+            border-radius: 10px;
+            display: flex;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+             }
+            
+
+        .left-box {
+            background-color: #24c8a6;
+            width: 170px;
+            padding: 30px;
+            border-radius: 10px 70px 70px 10px;
+            align-items: center;
+        }
+        .left-box p{
+            font-size: 13px;
+            text-align: center;
+            padding-top: -10px;
+            margin-bottom: 30px;
+        }
+
+        .right-box {
+            width: 50rem;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+       .right-box p{
+         color: #30B092;
+        }
+
+        .left-box h1 {
+            font-size: 20px;
+        }
+
+        .sign-in-btn {
+            background-color: #FFFFFF;
+            color: #24c8a6;
+            padding: 10px;
+            border: none;
+            border-radius: 5rem;
+            cursor: pointer;
+            width: 80px;
+        }
+        .sign-in-btn:hover{
+            background-color: #17a085;
+            color: white;
+            
+        }
+        .create-account h2 {
+            color: #30B092;
+            font-size: 20px;
+            font-weight: 500px;
+            text-align: center;
+        }
+        .create-account p {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .social-icons {
+            margin: 10px;
+            margin-left: 20px;
+        }
+
+        .social-icons img {
+            width: 25px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .social-icons:hover{
+            transform: translateY(10px);
+        }
+
+        .input-box {
+            margin: 0px;
+        }
+
+        .input-box input {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5rem;
+        }
+
+        .sign-up-btn {
+            background-color: #24c8a6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius:5rem;
+            cursor: pointer;
+            width: 60%;
+            margin-top: 10px;
+            text-align: center;
+            margin-left: 30px;
+        }
+        .sign-up-btn:hover {
+            background-color: #17a085;
+        }
+        .navbar {
+            width: 100%;
+            height: 100px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #072E33;        }
+
+        .navbar img {
+            width: 200px;
+            padding-top: 40px;
+            padding-left: 50px;
+
+        }
+
+        }

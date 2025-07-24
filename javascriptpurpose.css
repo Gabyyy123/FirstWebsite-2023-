@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #30B092;
+    color: white;
+    height: 50rem;
+  }
+    
+  /* Header */
+  header {
+    background-color: #00303d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+        width: 15rem;
+          height: 7rem;
+          float: left;
+          padding-top: 17px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 25px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  nav ul li a:hover{
+    color: #23bdb5;
+    
+  }
+  /* image insert */
+  .image{
+    margin: 1px 33rem;
+  }
+
+  /* Back button */
+  .back-btn {
+    margin: 20px;
+    padding: 8px 15px;
+    background-color: #04F88E;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 3px 3px #333535;
+    opacity: 90%;
+    border-color: #04F88E;
+    font-weight: 200px;
+  }
+
+  .back-btn:hover {
+    background-color: #00a199;
+  }
+
+  /* Content section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+  }
+
+  .definition-card {
+    background-color: #7DB2D2;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 20rem;
+  }
+  .definition-card p {
+    font-size: 30px;
+    line-height: 1.6;
+    padding-top: 1rem;
+  }
+
+  /* Simulate colored dots on card */
+  .card-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+
+  .dot.red { background-color: red; }
+  .dot.green { background-color: green; }
+  .dot.blue { background-color: blue; }
+
+  /* Media queries */
+  @media (max-width: 808px) {
+    .definition-card {
+      width: 90%;
+    }
+
+    .content h1 {
+      font-size: 28px;
+    }
+    .content p{
+      font-size: 20px;
+
+    }
+  }
